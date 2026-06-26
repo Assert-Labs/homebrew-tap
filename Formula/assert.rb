@@ -10,22 +10,22 @@ class Assert < Formula
   on_macos do
     on_arm do
       url "https://github.com/Assert-Labs/cli/releases/download/v0.1.6/assert-darwin-arm64"
-      sha256 "56e0f22546acd92be49f2019f23eaaabc69b53c6ee0fefc0709fc799cc5ada1f"
+      sha256 "9aa8e0b4721b99018a5b24777a5f95079f1628688502b56b9aff7790be23eaec"
     end
     on_intel do
       url "https://github.com/Assert-Labs/cli/releases/download/v0.1.6/assert-darwin-x64"
-      sha256 "5d0493fd9c959ed16165b1291c19d0f02de4670472bd4f09ab10a09844c7301d"
+      sha256 "20fc6833f651130d35ee4edccbda6ac23a9312ad97ac10ae56beacf00842e123"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Assert-Labs/cli/releases/download/v0.1.6/assert-linux-arm64"
-      sha256 "f76053d2968b1ad7f019585a4755077e93f4ccc63d42ddf8a7ed466402e10b02"
+      sha256 "006d3bdf9baa3873f16e8b46612dab8c0957b4c78bfd04f0e12e86abd60c615f"
     end
     on_intel do
       url "https://github.com/Assert-Labs/cli/releases/download/v0.1.6/assert-linux-x64"
-      sha256 "ded06cf8be05bcd01ce641180ed8348c2112d097373e29f8574c821766639fa8"
+      sha256 "1acd978c4957d238195a3af9c479c77fa113f0764e5488139dc863a028f4a100"
     end
   end
 
