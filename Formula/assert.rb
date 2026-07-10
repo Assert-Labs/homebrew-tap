@@ -4,28 +4,28 @@
 class Assert < Formula
   desc "Share session data from any coding agent"
   homepage "https://docs.assert.dev"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.8/assert-darwin-arm64"
-      sha256 "f94c8053cd5c8ba2967f9c981d79bde6a3e9cb9ab28993bda6bb79c92aaaa3b5"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.9/assert-darwin-arm64"
+      sha256 "e51e5baf9eabd6ee3e549f61977369f832ed0557d94da34c4c845e1e0b3e87b6"
     end
     on_intel do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.8/assert-darwin-x64"
-      sha256 "8434ac5e537fc13967df852b60b5eeb26928f6a4db946f2029690e61f2ced1a9"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.9/assert-darwin-x64"
+      sha256 "e18ba396cafd0af698894c4abb3c6878768d8e4a2c31a6215fec5c1a65843636"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.8/assert-linux-arm64"
-      sha256 "1b11100e51c7f7d5ebe788cae4041578ecc3910ac97766e6803651a2c848f9cb"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.9/assert-linux-arm64"
+      sha256 "329db36ec4d310b0566d3043dbc02642a87f5e9dadcd4bef852a579b4e02167a"
     end
     on_intel do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.8/assert-linux-x64"
-      sha256 "a024717e11f63539df7ff9d30221efcba171055f37c94173c8c0110176f885e8"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.9/assert-linux-x64"
+      sha256 "39dc8d8e15c06eebe9ac8cdf4d7ec6c853a9cb991a3cae7765ade717eaa9ef97"
     end
   end
 
@@ -35,8 +35,8 @@ class Assert < Formula
 
   def caveats
     <<~EOS
-      To install Assert hooks for your coding agents, run:
-        assert install
+      To initialize Assert hooks for your coding agents, run:
+        assert init
     EOS
   end
 
