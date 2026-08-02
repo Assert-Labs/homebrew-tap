@@ -4,28 +4,28 @@
 class Assert < Formula
   desc "Share session data from any coding agent"
   homepage "https://docs.assert.dev"
-  version "0.1.20"
+  version "0.1.21"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.20/assert-darwin-arm64"
-      sha256 "56d334d40418942b7f5b3a73ea233963ecd11edfd6a1fe6db9093bcd4d6c6a8c"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.21/assert-darwin-arm64"
+      sha256 "b9e13ed73a722762a3874f9c1e793cb28c62313224ee6c05267c8d4d9de897ad"
     end
     on_intel do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.20/assert-darwin-x64"
-      sha256 "e4914dac6ea6c4ead6d778904cb1b37f478d002fe303c3246c656696b87e5986"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.21/assert-darwin-x64"
+      sha256 "941f6a662e894fa635cda15d3b49db561f6c39d1063a7e35dedc462d36d33260"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.20/assert-linux-arm64"
-      sha256 "796534098553c33ab88c9aaa805d909b32fa64339443dd226abbd03c3465204d"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.21/assert-linux-arm64"
+      sha256 "09c744824e1662dad34a6c0d43812c2b0714aa665adce5d9a35d524175078ff9"
     end
     on_intel do
-      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.20/assert-linux-x64"
-      sha256 "94cf9af8ec62527ad7436f41a17c8b6646438bd05b2355de853098ab0757ae02"
+      url "https://github.com/Assert-Labs/cli/releases/download/v0.1.21/assert-linux-x64"
+      sha256 "da429043dcf8ca377542342a753e03d5d1471cd445ab4927dbe8e1e8257ff692"
     end
   end
 
